@@ -1,16 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello! I'm currently a student in the [Master of Data Science program](https://masterdatascience.science.ubc.ca/) at the University of British Columbia. Before entering the program and focusing on data science, I did my MSc in mathematics at McMaster University, where I studied [mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic#Model_theory) and [functional analysis](https://en.wikipedia.org/wiki/Banach_space).
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+When I'm not working with data, you can find me hiking, running, or watching basketball!
