@@ -150,7 +150,7 @@ Scrapy also wants us to have a standard way to return what we extract, and this 
 </div>
 ```
 
-produces the following when we call the `string` method,
+produces the following when we call the `strings` method,
 
 ```python
 ['\n',
