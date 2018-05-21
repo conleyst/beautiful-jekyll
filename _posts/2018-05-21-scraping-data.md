@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bears, Beets & NLP: Part 1
+title: Bears, Beets, NLP: Part 1
 subtitle: Scraping The Office Script With Beautiful Soup and Scrapy
 tags: [project, web-scraping, data-cleaning]
 ---
