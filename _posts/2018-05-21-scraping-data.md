@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Testing markdown
-subtitle: Each post also has a subtitle
+title: Bears, Beets, NLP: Part 1
+subtitle: Scraping The Office Script With Scrapy and BeautifulSoup
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
