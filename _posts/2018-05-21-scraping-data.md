@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Bears, Beets, NLP: Part 1
-subtitle: Scraping The Office Script With Scrapy and BeautifulSoup
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+subtitle: Scraping With Scrapy and BeautifulSoup
+tags: [project, web-scraping]
 ---
 
 The Office offers endless entertainment. Not only is it infinitely rewatchable, but it turns out that it lends itself to data science projects as well. I've been working on a project analyzing the the script of The Office and will be presenting the results as a series of blog posts here. My goal is to build a classifier to predict which character from The Office said (or would say) a given line. I'm experimenting by building a series of different classifiers. I'll start with a baseline model, and over the next couple posts will see if I can beat its performance by engineering new features or using different models.
