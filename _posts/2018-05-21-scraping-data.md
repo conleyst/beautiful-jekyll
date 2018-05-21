@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bears, Beets, NLP - Part 1
-subtitle: Scraping With Scrapy and BeautifulSoup
+subtitle: Scraping The Office Script With Scrapy and BeautifulSoup
 tags: [project, web-scraping]
 ---
 
@@ -165,7 +165,7 @@ produces the following when we call the `string` method,
  ' Sorry?',
  '\n']
 ```
-Rather than try and parse all these exceptions on the fly, we'll create an Item will two entries. The first will be the list output of the `strings` method (minus an new line characters) and the second will be the URL we obtained the list from. The URL will allow us to later extract the season and episode.
+Rather than try and parse all these exceptions on the fly, we'll create an Item with two entries. The first will be the list output of the `strings` method (minus an new line characters) and the second will be the URL we obtained the list from. The URL will allow us to later extract the season and episode.
 
 Go to `office_crawler/office_crawler/items.py` and add the lines,
 
