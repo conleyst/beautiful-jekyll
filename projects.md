@@ -15,4 +15,4 @@ In the project [here](https://github.com/conleyst/canadian-ufo-sightings), I bui
 
 #### Predicting the Popularity of Mashable Articles
 
-This was a mini-project I did identify what made an article posted on Mashable "popular". The full analysis can be found in the GitHub repository [here](https://github.com/conleyst/predicting-social-media-shares/blob/master/results/analysis.md). 
+This was a mini-project I did to identify what made an article posted on Mashable "popular". The full analysis can be found in the GitHub repository [here](https://github.com/conleyst/predicting-social-media-shares/blob/master/results/analysis.md). 
