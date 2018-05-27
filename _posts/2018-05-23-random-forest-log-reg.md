@@ -5,7 +5,7 @@ subtitle: Bag-Of-Words, Random Forest, TFIDF, and Logistic Regression
 tags: [project, nlp, sklearn]
 ---
 
-This is the third entry in a sequence of posts about working with natural language, and specifically the script of The Office. In the previous post, I cleaned the raw data that I scraped in Part 1 and then explored the cleaned data.
+This is the third entry in a sequence of posts about working with natural language, and specifically the script of The Office. In [the previous post](https://conleyst.github.io/2018-05-22-clean-eda/), I cleaned the raw data that I scraped in Part 1 and then explored the cleaned data.
 
 As a reminder, all the relevant project code can be found in the GitHub repository [here](https://github.com/conleyst/bears-beets-nlp).
 
@@ -84,7 +84,7 @@ It's not entirely surprising though, since we noted in the EDA that most of the 
 
 TFIDF stands for *term frequency - inverse document frequency*. It also gets denoted tf-idf and refers to another model that we can use to represent the text in a collection of documents. Instead of naively using counts, TFIDF weighs the frequency with which a word appears in a document against how important it is in the corpus.
 
-Importance in this setting doesn't mean it appears a lot, but rather just the opposite. A word is more important when it characterizes a document very well. If you're told that the word "jalapeno" occurs only once in a corpus, then knowing that it occurs in a specific document carries a lot of weight. It uniquely picks out a document. If the word "poodle" appears ten times in a corpus, but nine of them are in the same document, then that word carries a lot of meaning, especially for the document it appears in nine times. We weight overall frequency *and* document-specific frequency. If you want to see the actual formula, check out [the Wikipedia page](https://en.wikipedia.org/wiki/Tf%E2%80%93idf).
+Importance in this setting doesn't mean it appears a lot, but rather just the opposite. A word is more important when it characterizes a document very well. If you're told that the word "jalapeno" occurs only once in a corpus, then knowing that it occurs in a specific document carries a lot of weight. It uniquely picks out a document. If the word "poodle" appears ten times in a corpus, but nine of them are in the same document, then that word carries a lot of meaning, especially for the document it appears in nine times. We weigh overall frequency *and* document-specific frequency. If you want to see the actual formula, check out [the Wikipedia page](https://en.wikipedia.org/wiki/Tf%E2%80%93idf).
 
 Just like the bag-of-words model, TFIDF uses a vocabulary obtained from the training set and any words in the test set that aren't in the vocabulary are ignored.
 
