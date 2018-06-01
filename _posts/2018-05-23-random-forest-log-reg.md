@@ -7,7 +7,15 @@ tags: [project, nlp, sklearn]
 
 This is the third entry in a sequence of posts about working with natural language, and specifically the script of The Office. In [the previous post](https://conleyst.github.io/2018-05-22-clean-eda/), I cleaned the raw data that I scraped in Part 1 and then explored the cleaned data.
 
-As a reminder, all the relevant project code can be found in the GitHub repository [here](https://github.com/conleyst/bears-beets-nlp).
+All the relevant project code can be found in [the GitHub repository](https://github.com/conleyst/bears-beets-nlp) and all the current blog posts in the series are:
+
+- [Part 1: Scraping The Office Script with Scrapy and BeautifulSoup](https://conleyst.github.io/2018-05-21-scraping-data/)
+
+- [Part 2: Cleaning the Data and Exploratory Data Analysis](https://conleyst.github.io/2018-05-22-clean-eda/)
+
+- [Part 3: Bag-Of-Words, Random Forest, TFIDF, and Logistic Regression](https://conleyst.github.io/2018-05-23-random-forest-log-reg/)
+
+- [Part 4: Glove Embeddings and a Convolutional Neural Net for Text Classification](https://conleyst.github.io/2018-05-26-convnet/)
 
 ---
 
