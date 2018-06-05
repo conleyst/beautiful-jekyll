@@ -108,7 +108,7 @@ A few notes:
 1. The `parse` method is always called first when we start our Spider, so it should be the one extracting the links.
 2. The `response` variable refers to the HTML returned when Scrapy goes to the website listed in our `start_urls` list.
 3. Notice I also referred to a `parse_quotes` method that we haven't written yet. This is the method that will extract the quotes from the links we extracted.
-4. I used `yield` instead of `return`. Return stops the script, but we want our Spider to keep going until it runs our of links. Using `yield` does this.
+4. I used `yield` instead of `return`. Return stops the script, but we want our Spider to keep going until it runs out of links. Using `yield` does this.
 
 **Step 3: Tell Scrapy how to extract the lines from the links**
 
