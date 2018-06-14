@@ -32,7 +32,7 @@ Getting the actual script of The Office is the first hurdle that needs to be cle
 
     BeautifulSoup is a Python package that is very useful for parsing HTML. Although Scrapy can also parse HTML, BeautifulSoup is created to do this one thing, and I find that it does it very well. It's a nice complement to Scrapy.
 
-Let's run through how I craped the lines off of the website. If you aren't familiar with HTML, you don't need to know much, but you should have some idea of what a tag or element is. If you don't, spend a few minutes clicking around this website [here](https://www.w3schools.com/html/html_intro.asp).
+Let's run through how I scraped the lines off of the website. If you aren't familiar with HTML, you don't need to know much, but you should have some idea of what a tag or element is. If you don't, spend a few minutes clicking around this website [here](https://www.w3schools.com/html/html_intro.asp).
 
 **Step 0: Install Scrapy and BeautifulSoup**
 
